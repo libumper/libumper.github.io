@@ -8,8 +8,12 @@ Input Keywords:
 </br>
 Results: <p id="show"></p>
 
-<script>
-function fun(){
-    document.getElementById("show").innerHTML = document.getElementById("head");
+<script type="text/javascript">
+function getValue() {
+  var x=document.getElementById("myHeader")
+  alert(x.innerHTML)
 }
 </script>
+
+<h1 id="myHeader" onclick="getValue()">This is a header</h1>
+<p>Click on the header to alert its value</p>
