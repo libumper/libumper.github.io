@@ -16,6 +16,10 @@ angular.module('ngRouteExample', ['ngRoute'])
         templateUrl: 'chu/1.html',
         controller: 'ChuController'
     }).
+    when('/chu/2', {
+        templateUrl: 'chu/2.html',
+        controller: 'ChuController'
+    }).
     when('/bumper', {
         templateUrl: 'bumper.html',
         controller: 'BumperController'
